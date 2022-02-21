@@ -1,0 +1,26 @@
+.postsHeader {
+    color: white;
+    font-size: 25px;
+}
+.publishPost{
+    width: 80%;
+}
+.postInput {
+    background-color: #ccd2cf;
+    width: 100%;
+    height: 70px;
+    border: none;
+    resize: none;
+}
+.publicPostButton {
+    display: block;
+    margin-left: auto;
+    border: none;
+    width: 170px;
+    height: 35px;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+}

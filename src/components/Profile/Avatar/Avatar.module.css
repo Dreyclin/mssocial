@@ -1,0 +1,21 @@
+.photoBlock {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: #333336;
+}
+.photoBlock img {
+    border-radius: 3px;
+}
+
+.photoBlock button {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

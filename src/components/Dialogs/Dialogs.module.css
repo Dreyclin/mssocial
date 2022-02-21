@@ -1,0 +1,45 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin: 0 auto;
+}
+
+.dialog {
+    padding: 10px;
+}
+
+.dialog::before {
+    content: ' ';
+    background-image: url(../../assets/img/avatar.jpg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dialog a {
+    color: white;
+    text-decoration: none;
+}
+
+.messages textarea {
+    margin-top: 30px;
+}
+
+.message {
+    padding: 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 30px;
+    max-width: 30%;
+    word-wrap: break-word;
+}
+
+
+a.active {
+    color: gold;
+}
+
+.my__message {
+    margin-left: auto;
+}

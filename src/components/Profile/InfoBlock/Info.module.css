@@ -1,0 +1,23 @@
+.profileInfo {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: #333336;
+}
+
+.info__item{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.userName {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.status {
+    color: grey;
+    margin-top: 0;
+}

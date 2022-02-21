@@ -1,0 +1,50 @@
+.user__photo {
+    width: 200px;
+    height: 200px;
+}
+.about__block {
+    position: relative;
+    border-radius: 30px;
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+.user__city {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: grey;
+}
+
+.user__name {
+    color: grey;
+}
+
+.user__status {
+    color: grey;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.btn button{
+    min-width: 100px;
+    min-height: 30px;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn {
+    max-width: 100px;
+}
+
+.currentActive {
+    font-weight: bold;
+}
